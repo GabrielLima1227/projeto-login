@@ -34,6 +34,9 @@ section#login{
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     /*Existem formas mais eficientes e fáceis de fazer essa centralizaçaõ.*/
+    /*Criando Animação de transição*/
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 section > div#imagem{
     height: 200px;
